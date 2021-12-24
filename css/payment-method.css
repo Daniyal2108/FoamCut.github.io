@@ -1,0 +1,158 @@
+/* FONT FAMILY*/
+@font-face {
+    font-family: Gilroy-light;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
+}
+
+/* PAYMENT METHOD BAR */
+
+.payment-method-bar {
+    padding: 150px 50px 150px 50px !important;
+}
+.payment-method-bar h1 {
+    font-family: Gilroy-Regular !important;
+    font-size: 90px;
+}
+@media only screen and (max-width: 767px) {
+    .payment-method-bar {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .payment-method-bar h1 {
+        font-size: 50px;
+    }
+}
+
+/* PAYMENT METHOD BAR */
+
+
+/* PAYMENT METHOD SECTION */
+
+.payment-method-section {
+    background-color: #0c93ea;
+    color: white;
+}
+.payment-method-section p {
+    font-family: Gilroy-light !important;
+    font-size: 18px;
+}
+.payment-method-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+@media only screen and (max-width: 767px) {
+    .payment-method-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .payment-method-section p {
+        font-size: unset !important;
+    }
+    .payment-method-img {
+        text-align: center;
+    }
+}
+.pd-top {
+    padding-top: 30px;
+}
+
+/* PAYMENT METHOD SECTION */
+
+
+/* IDENTITY & SAFETY SECTION */
+
+.identity-section {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+.identity-container {
+    padding: 50px !important;
+}
+@media only screen and (max-width: 767px) {
+    .identity-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }   
+    .identity-container p {
+        font-size: unset !important;
+        font-family: Gilroy-light !important;
+    }
+    .identity-container p {
+        font-size: unset !important;
+    }
+}
+.identity-container p {
+    font-size: 18px;
+    font-family: Gilroy-light !important;
+}
+
+/* IDENTITY & SAFETY SECTION */
+
+
+/* ADDITIONAL PAYMENT */
+
+.additional-payment-container {
+    padding: 50px !important;
+}
+@media only screen and (max-width: 767px) {
+    .additional-payment-container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .additional-payment-container p {
+        font-size: unset !important;
+        font-family: Gilroy-light !important;
+    }
+    .additional-payment-container label {
+        font-size: unset !important;
+        font-family: Gilroy-light !important;
+    }
+    .cart-button {
+        padding-top: 20px;
+    }
+    .padding {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+}
+.additional-payment-container h1 {
+    color: #0c93ea;
+    font-family: Gilroy-Regular !important;
+    font-weight: bold;
+}
+.additional-payment-container p {
+    font-size: 18px;
+    font-family: Gilroy-light !important;
+}
+.padding {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.additional-payment-container label {
+    font-size: 18px;
+}
+.additional-payment-container input {
+    padding-top: 22px ;
+    padding-bottom: 22px;
+}
+.additional-payment-container button {
+    font-size: 18px !important;
+    background-color: #0c93ea;
+    color: white;
+    font-family: Gilroy-light !important;
+    border: #0c93ea;
+}
+
+/* ADDITIONAL PAYMENT */

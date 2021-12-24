@@ -1,0 +1,278 @@
+
+
+/* SHAPES SECTION */
+@media only screen and (min-width: 1760px) {
+    .length {
+        margin-left: 1050px !important;
+    }
+}
+@media only screen and (min-width: 1691px) {
+    .thickness {    
+        margin-top: -200px !important;
+        margin-left: 380px;
+    }
+    .width {
+        margin-top: -25px;
+        margin-left: 650px;
+    }
+    .length {
+        margin-left: 1000px;
+        margin-top: -270px;
+    }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1299px) {
+    .thickness {    
+        margin-top: -200px !important;
+        margin-left: 50px;
+    }
+    .width {
+        margin-left: 450px;
+    }
+    .length {
+        margin-left: 800px;
+        margin-top: -270px;
+    }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1440px) {
+    .thickness {    
+        margin-top: -200px !important;
+        margin-left: 150px;
+    }
+    .width {
+        margin-left: 550px;
+    }
+    .length {
+        margin-left: 850px;
+        margin-top: -270px;
+    }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1500px) {
+    .thickness {    
+        margin-top: -200px !important;
+        margin-left: 100px;
+    }
+    .width {
+        margin-left: 550px;
+    }
+    .length {
+        margin-left: 860px;
+        margin-top: -270px;
+    }
+}
+@media only screen and (min-width: 1501px) and (max-width: 1600px) {
+    .thickness {    
+        margin-top: -200px !important;
+        margin-left: 190px;
+    }
+    .width {
+        margin-left: 550px;
+    }
+    .length {
+        margin-left: 930px;
+        margin-top: -270px;
+    }
+}
+@media only screen and (min-width: 1601px) and (max-width: 1690px) {
+    .thickness {    
+        margin-top: -200px !important;
+        margin-left: 190px;
+    }
+    .width {
+        margin-left: 550px;
+    }
+    .length {
+        margin-left: 990px;
+        margin-top: -270px;
+    }
+}
+@media only screen and (min-width: 1800px) {
+    .thickness {    
+        margin-top: -200px !important;
+        margin-left: 280px;
+    }
+    .width {
+        margin-left: 850px;
+    }
+    .length {
+        margin-left: 1150px !important;
+        margin-top: -270px;
+    }
+}
+@media only screen and (min-width: 2200px) {
+    .thickness {    
+        margin-top: -200px !important;
+        margin-left: 280px;
+    }
+    .width {
+        margin-left: 850px;
+    }
+    .length {
+        margin-left: 1350px;
+        margin-top: -270px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .radio-btn {
+        display: block;
+        text-align: left;
+        padding-left: 100px;
+    }
+    .radio {
+        width: inherit !important;
+        padding: inherit !important;
+    }
+}
+@media only screen and (max-width: 1199px) {
+    .thickness {  
+        padding-top: 20px;  
+        margin-top: 0px !important;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .width {
+        margin-top: 0px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .length {
+        margin-left: 0px;
+        margin-top: 0px;
+        text-align: center;
+    }
+    .label-1 input {
+        margin-left: 20px;
+    }
+    .label-2 input {
+        margin-left: 65px;
+    }
+    .label-3 input {
+        margin-left: 55px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .fifth-section {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .fifth-section-img {
+        width: 80% !important;
+    }
+    .input-labels {
+        font-size: inherit;
+    }
+    .radio-label {
+        font-size: inherit;
+    }
+    .radio-inline {
+        font-size: inherit;
+    }
+    .fifth-section button {
+        font-size: 20px !important;
+    }
+    .label-1 input {
+        margin-left: 18px;
+    }
+    .label-2 input {
+        margin-left: 58px;
+    }
+    .label-3 input {
+        margin-left: 50px;
+    }
+    .input-labels {
+        font-size: 25px;
+    }
+    .radio-label {
+        font-size: 25px;
+    }
+    .radio-inline {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 618px) {
+    .fifth-section p {
+        font-size: 30px;
+    }
+    .input-labels {
+        font-size: 25px;
+    }
+    .radio-label {
+        font-size: 25px;
+    }
+    .radio-inline {
+        font-size: 25px;
+    }
+    .label-1 input {
+        margin-left: 18px;
+    }
+}
+@media only screen and (max-width: 511px) {
+    .input-labels {
+        font-size: 25px;
+    }
+    .radio-label {
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 435px) {
+    input[type='radio'] {
+        width: 50px;
+        transform: scale(2);
+    }
+}
+@media only screen and (max-width: 424px) {
+    .fifth-section p {
+        font-size: 25px;
+    }
+    .input-labels {
+        font-size: 20px;
+    }
+    .radio-label {
+        font-size: 20px;
+    }
+    .radio-inline {
+        font-size: 20px;
+    }
+    .fifth-section button {
+        font-size: 20px !important;
+    }
+    .radio-btn {
+        margin-left: -20px;
+    }
+    .label-1 input {
+        margin-left: 25px;
+    }
+}
+@media only screen and (max-width: 364px) {
+    input[type='radio'] {
+        width: 20px;
+        transform: scale(2);
+    }
+}
+@media only screen and (max-width: 345px) {
+    .radio-btn {
+        margin-left: -30px;
+    }
+}
+@media only screen and (max-width: 307px) {
+    
+    .fifth-section p {
+        font-size: 20px;
+    }
+    .input-labels {
+        font-size: 15px;
+    }
+    .radio-label {
+        font-size: 15px;
+    }
+    .radio-inline {
+        font-size: 15px;
+    }
+    .label-1 input {
+        margin-left: 35px;
+    }
+}
+@media only screen and (max-width: 288px) {
+    .fifth-section button {
+        font-size: 10px;
+    }
+}

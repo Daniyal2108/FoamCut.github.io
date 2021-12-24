@@ -1,0 +1,70 @@
+.web-center {
+    max-width: 2000px;
+    margin: auto;
+}
+
+/* FONT FAMILY*/
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Regular.otf);
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Bold.otf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../font-family/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Font Awesome;
+    src: url(../font-family/PYROBATS.TTF);
+}
+
+
+
+/* SHAPES SECTION*/
+.fifth-section {
+    font-family: Gilroy-Regular;
+    background-color: #e1f4fd;
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.fifth-section p {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+.input-labels {
+    font-size: 25px;
+}
+.input-labels input {
+    width: 25%;
+    border: solid 5px grey;
+    border-radius: 10px;
+}
+.radio-label {
+    font-size: 25px;
+}
+.radio-inline {
+    font-size: 25px;
+}
+input[type='radio'] {
+    width: 50px;
+    transform: scale(3);
+}
+.fifth-section button {
+    background-color: #0c93ea;          
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fifth-section button:hover {
+    opacity: 90% !important;
+    background-color: #0c93ea !important;
+}

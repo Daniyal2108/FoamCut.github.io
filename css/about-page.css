@@ -1,0 +1,155 @@
+
+/* FONT FAMILY*/
+@font-face {
+    font-family: Gilroy-light;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
+}
+
+/* ABOUT US SECTION*/
+.about-us-container {
+    padding: 150px 50px 150px 50px !important;
+}
+.about-us-container h1 {
+    font-family: Gilroy-Regular !important;
+    font-size: 90px;
+}
+@media only screen and (max-width: 767px) {
+    .about-us-container {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .about-us-container h1 {
+        font-size: 50px;
+    }
+}
+
+/* FIRST SECTION*/
+.first-about-section {
+    background-color: #0c93ea;
+    color: white;
+}
+.about-first-container {
+    padding: 50px 100px 50px 100px !important;
+}
+.first-about-section p {
+    font-size: 18px;
+    font-family: Gilroy-light !important;
+}
+@media only screen and (max-width: 767px) {
+    .about-first-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .first-about-section p {
+        font-size: unset !important;
+    }
+}
+
+/* SECOND SECTION*/
+.about-second-section {
+    background-color: rgb(48, 48, 48);
+}
+.about-second-container {
+    padding: 50px 100px 50px 100px !important;
+}
+.about-h1-col {
+    padding-bottom: 20px;
+}
+.about-second-section h1 {
+    font-size: 50px;
+    font-family: Gilroy-Bold !important;
+    color: white;
+}
+.about-p-col {
+    padding-top: 20px;
+}
+.about-second-section p {
+    font-family: Gilroy-light !important;
+    font-size: 18px;
+    color: white;
+}
+@media only screen and (max-width: 767px) {
+    .imgs {
+        padding-top: 20px;
+
+    }
+    .about-second-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .about-second-section p {
+        font-size: unset !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .about-second-section h1 {
+        font-size: 35px;
+    }
+}
+
+/* THIRD SECTION*/
+.third-section {
+    background-color: #0c93ea;
+}
+.about-third-section {
+    padding: 50px 100px 50px 100px !important;
+}
+.third-section h1 {
+    font-size: 50px;
+    font-family: Gilroy-Bold !important;
+    color: white;
+}
+.third-section a {
+    font-family: Gilroy-light !important;
+    font-size: 18px;
+    color: white;
+}
+.a-col {
+    padding-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .about-third-section {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .third-section a {
+        font-size: unset !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .third-section h1 {
+        font-size: 35px;
+    }
+}
+
+/* FOURTH SECTION*/
+.about-four-container {
+    padding: 50px 100px 50px 100px !important;
+}
+.about-fourth-section h1 {
+    font-size: 50px;
+    font-family: Gilroy-Bold !important;
+    color: #0c93ea;
+}
+.about-fourth-section p {
+    font-family: Gilroy-light !important;
+    font-size: 18px;
+}
+@media only screen and (max-width: 767px) {
+    .about-four-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .about-fourth-section p {
+        font-size: unset !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .about-fourth-section h1 {
+        font-size: 35px;
+    }
+}

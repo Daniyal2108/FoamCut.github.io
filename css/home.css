@@ -1,0 +1,507 @@
+.web-center {
+    max-width: 2000px;
+    margin: auto;
+}
+
+/* FONT FAMILY*/
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Regular.otf);
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Bold.otf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../font-family/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Font Awesome;
+    src: url(../font-family/PYROBATS.TTF);
+}
+
+/* TOP ROW*/
+.top-row-container {
+    background-color: #0c93ea;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px !important;
+    padding-bottom: 10px;
+    color: white;
+}
+.top-row-container p {
+    font-family: Gilroy-Regular !important;
+}
+.top-col {
+    display: none;
+}
+.pd-bt {
+    padding-top: 15px;
+}
+.pd-bt-btn {
+    padding-top: 15px;
+    
+}
+.shopping-btn {
+    font-family: Gilroy-Regular !important;
+    background-color: unset !important;
+    color: white !important;
+    border: solid 1px white !important;
+}
+.shopping-btn:hover {
+    opacity: 80% !important;
+}
+.registration-btn {
+    font-family: Gilroy-Regular !important;
+    background-color: white !important;
+    color: #0c93ea !important;
+}
+.registration-btn:hover {
+    opacity: 80% !important;
+}
+
+.shopping-icon {
+    width: 30px;
+}
+
+/* NAVIGATION*/
+.navigation {
+    font-family: Gilroy-Regular;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #000000;
+}
+.nav-link {
+    font-family: Gilroy-Regular ;
+    color: white !important;
+    border-bottom: solid 3px black;
+}
+.nav-link:hover {
+    border-bottom: solid 3px white;
+}
+.white {
+    color: white !important;
+}
+.menu-dropdown-list:hover {
+    background-color: #0c93ea !important;
+    color: white !important;
+}
+
+/* FIRST SECTION*/
+.first-section {
+    background-color: rgba(128, 128, 128, 0.103);
+}
+.first-section-fluid {
+    padding-left: 50px !important;
+    padding-right: 20px !important;
+}
+.bed-img {
+    padding-right: 0px !important;
+}
+.left-col {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.left-col h1 {
+    font-size: 65px;
+    font-family: Gilroy-Bold;
+}
+p {
+    font-family: Gilroy-Regular;
+}
+.left-col p {
+    padding-top: 30px;
+    font-size: 18px;
+}
+.left-col-imgs {
+    padding-top: 20px;
+}
+.covid-img {
+    width: 25% !important;
+}
+.iso-img {
+    width: 15% !important;
+}
+.secure-img {
+    width: 15% !important;
+}
+
+/* SECOND SECTION*/
+.second-section {
+    font-family: Gilroy-Regular;
+}
+.second-section-fluid {
+    padding-left: 50px !important;
+}
+.about-section {
+    margin-top: 80px;
+    margin-left: -180px;
+    width: 100% !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #e1f4fd;
+}
+.about-p-1 {
+    font-family: Gilroy-light !important;
+    color: black;
+    font-size: 45px;
+    margin-bottom: 0px !important;
+}
+.about-p-2 {
+    font-family: Gilroy-light !important;
+    color: #0c93ea;
+    font-size: 45px;
+    font-weight: lighter;
+}
+.about-p-3 {
+    font-family: Gilroy-Regular;
+    padding-bottom: 20px;
+    font-size: 27px;
+}
+.about-button {
+    font-family: Gilroy-Regular !important;
+    background-color: #0c93ea !important;
+    color: white !important;
+}
+.about-button:hover {
+    opacity: 90% !important;
+}
+.learn-more-btn {
+    list-style-image: url(../foam-cut-slicing/home-page/btn-arrow.png);
+}
+
+/* TRADE FOAM SECTION*/
+.trade-foam-section {
+    background-color: #000000;
+    
+}
+.trade-container {
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.trade-p-1 {
+    font-family: Gilroy-Regular;
+    font-weight: lighter;
+    font-size: 60px;
+    color: #0c93ea;
+}
+.trade-p-1 span {
+    font-family: Gilroy-Regular;
+    color: white;
+}
+.trade-p-2 {
+    font-family: Gilroy-Regular;
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 30px;
+}
+.card-row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card-header {
+    background-color: #0c93ea !important;
+    padding-top: 80px !important;
+    padding-bottom: 50px !important;
+}
+.card-header p {
+    font-family: unset !important;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+}
+.card-body {
+    background-color: #0c91ea33 !important;
+}
+.long-text-card {
+    padding-top: 50px !important;
+    padding-bottom: 30px !important;
+}
+.long-text-card p {
+    font-size: 34px;
+}
+.trade-last-row button {
+    font-family: Gilroy-Regular;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+    background-color: #0c93ea;
+}
+.trade-last-row button:hover {
+    opacity: 90% !important;
+    background-color: #0c93ea !important;
+}
+.trade-btn-col {
+    padding-top: 50px;
+}
+
+/* FOURTH SECTION*/
+.fourth-section {
+    font-family: Gilroy-Regular;
+    padding-top: 40px !important;
+    padding-bottom: 50px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.fourth-section h1 {
+    font-family: Gilroy-light !important;
+    color: #0c93ea;
+}
+.fourth-section span {
+    color: black !important;
+}
+.fourth-section-img {
+    width: 20%;
+}
+.img-text {
+    font-size: 25px !important;
+    padding-left: 100px !important;
+}
+
+/* FIFTH SECTION*/
+.fifth-section {
+    font-family: Gilroy-Regular;
+    background-color: #e1f4fd;
+    padding-top: 30px !important;
+    padding-bottom: 50px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.fifth-section p {
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+.thickness {    
+    margin-top: -200px !important;
+    margin-left: 100px;
+}
+.width {
+    margin-left: 650px;
+}
+.length {
+    margin-left: 1150px;
+    margin-top: -120px;
+}
+.input-labels {
+    font-size: 30px;
+}
+.input-labels input {
+    width: 25%;
+    border: solid 5px grey;
+    border-radius: 10px;
+}
+.radio-label {
+    font-size: 30px;
+}
+.radio-inline {
+    font-size: 30px;
+}
+input[type='radio'] {
+    width: 50px;
+    transform: scale(3);
+}
+.fifth-section button {
+    background-color: #0c93ea;          
+    color: white;
+    font-size: 40px;
+    font-weight: lighter;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fifth-section button:hover {
+    opacity: 90% !important;
+    background-color: #0c93ea !important;
+}
+ 
+
+/* FOAM BLOG SECTION*/
+.foam-blog-section {
+    font-family: Gilroy-Regular;
+    background-color: #0c93ea;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.foam-blog-section h2 {
+    font-family: Gilroy-Bold !important;
+}
+.foam-blog-p1 h1 {
+    font-family: Gilroy-light !important;
+    color: white;
+    font-size: 55px;
+}
+.foam-blog-p2 {
+    color: white;
+    font-family: Gilroy-light !important;
+    font-weight: lighter;
+}
+.pad-left {
+    padding-left: 0px !important;
+}
+.pad-left p {
+    font-size: 18px;
+}
+.pad-left button {
+    font-size: 18px;
+    background-color: white;
+    color: #0c93ea;
+    border: white;
+}
+.pad-left button:hover {
+    background-color: white ;
+    color: #0c93ea;
+    opacity: 90% !important;
+}
+#more {
+    display: none;
+}
+
+/* FREQUENTLY QUESTION SECTION*/
+.frequently-asked-section {
+    font-family: Gilroy-Regular;
+    padding: 30px 50px 50px 50px !important;
+    background-color: #000000;
+}
+.questipn-p1 {
+    font-family: Gilroy-light !important;
+    color: white;
+    font-weight: lighter;
+}
+.bs-example{
+    margin: 20px;
+}
+.accordion .fa{
+    margin-right: 0.5rem;
+}
+.question {
+    padding-left: 50px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    background-color: black !important;
+    padding-top: 20px;
+    border: solid 2px white !important;
+    border-bottom: solid 2px white !important;
+}
+.question-btn {
+    color: white !important;
+    font-size: 18px !important;  
+}
+.answer {
+    padding-top: 20px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    font-size: 18px !important;
+    color: black !important;
+    background-color: white !important;
+    border-top: solid 2px white !important;
+}
+
+/* CONTACT US*/
+.contact-us-section {
+    font-family: Gilroy-Regular;
+    padding: 20px 50px 50px 50px !important;
+    background-color: #0c93ea;
+    color: white;
+}
+.contact-us-p1 {
+    font-family: Gilroy-light !important;
+    font-size: 55px;
+}
+.contact-us-p2 {
+    font-family: Gilroy-light !important;
+    font-size: 40px;
+}
+.contact-us-p3 {
+    font-size: 35px;
+    font-family: Gilroy-light !important;
+}
+.input {
+    background-color: white !important;
+    width: 65% !important;
+    padding-left: 30px !important;
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    border: 0px !important;
+    border-radius: 10px !important;
+}
+input,
+input::-webkit-input-placeholder {
+    font-size: 18px;
+}
+textarea::placeholder {
+    font-size: 18px;
+  }
+.contact-btn {
+    font-size: 18px !important;
+    padding-top: 10px !important;
+    background-color: black !important;
+    color: white !important;
+}
+.contact-btn:hover {
+    opacity: 90% !important;
+}
+.map-and-details-p {
+    padding-left: 30px;
+    font-size: 18px;
+    color: white;
+}
+.map-details-img {
+    width: 50px;
+}
+.map {
+    width: 100%;
+    height: 100%;
+    border: solid 10px black;
+}
+
+/* SECOND LAST SECTION*/
+.second-last-sec {
+    font-family: Gilroy-Regular;
+    background-color: black;
+    padding: 50px !important;
+}
+.second-last-sec p {
+    font-size: 18px;
+    color: white;
+    font-family: Gilroy-light !important;
+}
+.second-last-sec a {
+    color: white;
+    font-family: Gilroy-light !important;
+}
+
+/* FOOTER*/
+.footer {
+    font-family: Gilroy-Regular;
+    padding: 50px !important;
+}
+.footer-p {
+    font-size: 18px;
+    font-family: Gilroy-light !important;
+}
+.payment {
+    text-align: left;
+}
+.socialmedia {
+    text-align: right !important;
+}
+.payment-card-icons {
+    font-size: 50px;
+}
+.social-icon {
+    font-size: 50px;
+}

@@ -1,0 +1,131 @@
+/* FONT FAMILY*/
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Regular.otf);
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Bold.otf);
+}
+@font-face {
+    font-family: Montserrat;
+    src: url(../font-family/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Font Awesome;
+    src: url(../font-family/PYROBATS.TTF);
+}
+
+/* TRADE FOAM TOP BAR SECTION*/
+.trade-foam-bar-container {
+    padding: 150px 50px 150px 50px !important;
+}
+.trade-foam-bar-container h1 {
+    font-family: Gilroy-Regular !important;
+    font-size: 90px;
+}
+@media only screen and (max-width: 767px) {
+    .trade-foam-bar-container {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .trade-foam-bar-container h1 {
+        font-size: 50px;
+    }
+}
+
+/* TRADE FOAM FIRST SECTION */
+
+.trade-foam-first-section {
+    background-color: #0c93ea;
+    color: white;
+}
+.trade-foam-first-container {
+    padding: 50px;
+}
+.trade-foam-first-section p {
+    font-size: 25px;
+    font-family: Gilroy-Regular ;
+}
+@media only screen and (max-width: 767px) {
+    .trade-foam-first-section p {
+        font-size: unset;
+    }
+    .trade-foam-first-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* SECOND SECTION*/
+.trade-foam-third-container {
+    padding: 50px 50px 50px 50px ;
+    background-color: #0c93ea;
+}
+.padding-bt {
+    padding-bottom: 20px;
+}
+.a-padding-bt {
+    padding-bottom: 10px;
+}
+.trade-foam-third-section h1 {
+    font-size: 50px;
+    font-family: Gilroy-Bold ;
+    color: white;
+}
+.trade-foam-third-section p {
+    color: white;
+    font-family: Gilroy-light ;
+    font-size: 25px;
+}
+.trade-foam-third-section a {
+    font-size: 25px;
+    color: white;
+}
+.iso-img-col {
+    padding-bottom: 250px;
+}
+@media only screen and (max-width: 767px) {
+    .trade-foam-third-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .trade-foam-third-section a {
+        font-size: unset !important;
+    }
+    .trade-foam-third-section h1 {
+        font-size: 40px;
+    }
+    .iso-img-col {
+        padding-bottom: 20px;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .trade-foam-third-section h1 {
+        font-size: 35px;
+    }
+}
+
+/* TRADE FOAM FOURTH SECTION */
+
+.trade-foam-fourth-container {
+    padding: 50px ;
+}
+.trade-foam-fourth-container p {
+    font-size: 25px;
+    font-family: Gilroy-Regular;
+}
+@media only screen and (max-width: 767px) {
+    .trade-foam-fourth-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .trade-foam-fourth-container p {
+        font-size: unset;
+    }
+}
+/* TRADE FOAM FOURTH SECTION */

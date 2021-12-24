@@ -1,0 +1,21 @@
+/* ABOUT US SECTION*/
+.foam-blog-container {
+    padding: 150px 50px 150px 50px !important;
+}
+.foam-blog-container h1 {
+    font-family: Gilroy-Regular !important;
+    font-size: 90px;
+}
+@media only screen and (max-width: 767px) {
+    .foam-blog-container {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .foam-blog-container h1 {
+        font-size: 50px;
+    }
+}

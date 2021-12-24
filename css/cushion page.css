@@ -1,0 +1,85 @@
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Regular.otf);
+}
+
+/* CUSHION PAGE HEADING SECTION */
+.cushion-page-container {
+    padding: 150px 50px 150px 50px ;
+}
+.cushion-page-container h1 {
+    font-family: Gilroy-Regular !important;
+    font-size: 90px;
+}
+@media only screen and (max-width: 767px) {
+    .cushion-page-container {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .cushion-page-container h1 {
+        font-size: 50px;
+    }
+}
+
+/* FIRST SECTION */
+.cushion-first-section {
+    background-color: #e1f4fd;
+}
+.cushion-first-container {
+    padding: 50px 100px 50px 100px !important;
+}
+.cushion-first-container p {
+    font-family: Gilroy-Regular !important;
+}
+.cushion-first-container p {
+    font-family: Gilroy-Regular !important;
+    font-size: 18px;
+}    
+@media only screen and (max-width: 767px) {
+    .cushion-first-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .cushion-first-container p {
+        font-size: unset !important;
+    }
+}
+
+/* SECOND SECTION */
+.cushion-second-section {
+    background-color: #0c93ea;
+}
+.cushion-second-container {
+    padding: 50px 100px 50px 100px !important;
+}
+.cushion-second-container h1 {
+    color: white;
+    font-family: Gilroy-Regular !important;
+}
+.heading {
+    padding-bottom: 20px;
+}
+.cushion-second-container p {
+    font-size: 18px;
+    color: white;
+    font-family: Gilroy-Regular !important;
+}
+@media only screen and (max-width: 767px) {
+    .cushion-second-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .cushion-second-container p {
+        font-size: unset !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .fifth-section-img {
+        padding-bottom: 20px;
+    }
+}
+

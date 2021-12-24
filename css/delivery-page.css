@@ -1,0 +1,95 @@
+/* FONT FAMILY*/
+@font-face {
+    font-family: Gilroy-light;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
+}
+
+/* DELIVERY PAGE SECTION */
+.deivery-page-contaner {
+    padding: 150px 50px 150px 50px !important;
+}
+.deivery-page-contaner h1 {
+    font-family: Gilroy-Regular !important;
+    font-size: 90px;
+}
+@media only screen and (max-width: 767px) {
+    .deivery-page-contaner {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .deivery-page-contaner h1 {
+        font-size: 50px;
+    }
+}
+
+/* FIRST SECTION */
+.delivery-page-first-sec {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+.delivery-first-page-container {
+    padding: 50px 100px 50px 100px !important;
+}
+.delivery-page-first-sec p {
+    font-family: Gilroy-light !important;
+    font-size: 18px;
+}
+.delivery-page-first-sec h1 {
+    font-family: Gilroy-Bold !important;
+    font-size: 50px;
+}
+.delivery-h1-col {
+    padding-bottom: 20px;
+}
+.delivery-h2-col {
+    padding-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+    .delivery-first-page-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .delivery-page-first-sec p {
+        font-size: unset !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .delivery-page-first-sec h1 {
+        font-size: 35px;
+    }
+}
+
+/* SECOND SECTION */
+.delivery-page-second-sec {
+    background-color: #0c93ea;
+    color: white;
+}
+.delivery-second-page-container {
+    padding: 50px 100px 50px 100px !important;
+}
+.delivery-page-second-sec p {
+    font-family: Gilroy-light !important;
+    font-size: 18px;
+}
+.delivery-page-second-sec h1 {
+    font-family: Gilroy-Bold !important;
+    font-size: 50px;
+}
+@media only screen and (max-width: 767px) {
+    .delivery-second-page-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .delivery-page-second-sec p {
+        font-size: unset !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .delivery-page-second-sec h1 {
+        font-size: 35px;
+    }
+}

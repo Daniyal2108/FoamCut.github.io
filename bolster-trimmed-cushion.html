@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Content</title>
+        <!-- CSS FILES-->
+        <link rel="stylesheet" href="../foamCut.github.io/css/square-rectangle-cushion.css">
+        <link rel="stylesheet" href="../foamCut.github.io/css/square-rectangle-cushion-responsive.css">
+        <link rel="stylesheet" href="../foamCut.github.io/css/cushion page.css">
+        <link rel="stylesheet" href="../foamCut.github.io/css/window-seat-cushion.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+        <!-- Font awesome-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+                
+        
+                <!-- FIRST SECTION -->
+                <section class="cushion-first-section">
+                    <div class="container-fluid cushion-first-container">
+                        <div class="row">
+                            <div class="col-12">
+                                <p>Foam cuts are different to the standard foam converter. Proud to be manufacturing soft furnishings and 
+                                    foam converting in the UK. With more than three generations of experience. Based in the historical textile 
+                                    manufacturing heart of Manchester we are continuing in the footsteps of tradition dating back to the 
+                                    1700's and the cotton boom. We are different because we can supply foam and covers, separately or as 
+                                    a finished product. We can source, design, and manufacture new products all under one roof without any 
+                                    compromise on quality.</p>
+                            </div>
+                            <div class="col-12">
+                                <p>We have tried to make the foam buying process as easy as possible. </p>
+                            </div>
+                            <div class="col-12">
+                                <p>Then fill in the boxes with your preferred measurement to create your shape size.</p>
+                            </div>
+                            <div class="col-12">
+                                <p>After that choose a foam type.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+                <!-- SECOND SECTION -->
+                <section class="cushion-second-section">
+                    <div class="container-fluid cushion-second-container">
+                        <div class="row">
+                            <div class="col-12 heading">
+                                <h1>Measuring Guide:</h1>
+                            </div>
+                            <div class="col-12">
+                                <p>We call "width" the side view or left to right measurement. In a foam seat cushion this is the dimension 
+                                    behind your knees. "Length" is the front to back measurement.</p>
+                            </div>
+                            <div class="col-12">
+                                <p>Don't measure the old foam. Old foam is usually deformed or collapsed with age. </p>
+                            </div>
+                            <div class="col-12">
+                                <p>For replacing cushion fillings, always measure between the seams or between the cording of the cover 
+                                    with the filling inside, then add 1" (1.5-2.5cm) to the thickness depending on how much extra fullness you 
+                                    want in your cushion.</p>
+                            </div>
+                            <div class="col-12">
+                                <p>If you are adding a fibre wrap, please do not allow for this in your measurement as the fibre wrap will 
+                                    compress and fill your cushion out nicely.</p>
+                            </div>
+                            <div class="col-12">
+                                <p>If you are unsure about measuring, please call us on 0161 223 7111 and we will be happy to assist.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+                 <!-- THIRD SECTION-->
+                 <section class="fifth-section">
+                    <div class="container-fluid web-center">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <p>Please enter deimensions in the boxes below & “Get the Price”.</p>
+                            </div>
+                            <form action="quote.php" method="GET">
+                                <input type="hidden" name="shape" value="{PAGE_ID}" />
+                            <div class="col-12 text-center" >
+                                <img src="../foamCut.github.io/foam-cut-slicing/SVG/bolster-trimmed.svg" class="w-25 fifth-section-img text-center" id="change-img">
+                            </div>
+                            <div class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 thickness">
+                                        <label class="input-labels label-1">Thickness <input name="thickness" type="text"></label>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-4 width">
+                                        <label class="input-labels label-2">Width <input name="width" type="text"></label>
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-3 length">
+                                        <label class="input-labels label-3">Length <input name="length" type="text"></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 radio-col text-center">
+                                <br>
+                                
+                                    <span class="radio-label">Please select unit of measurement:</span>
+                                    <br class="break">
+                                    <label class="radio-inline radio-btn">
+                                      <input  type="radio" value="in" name="optradio"> Inches
+                                    </label>
+                                    <label class="radio-inline radio-btn">
+                                      <input  type="radio" value="cm" name="optradio"> Centimeters
+                                    </label>
+                                    <label class="radio-inline radio-btn">
+                                      <input  type="radio" value="ml" name="optradio"> Millimeters
+                                    </label>
+                                
+                            </div>
+                            <div class="col-12 text-center">
+                                <br><br>
+                                <button class="btn btn-lg btn-primary"><img src="../foamCut.github.io/foam-cut-slicing/home-page/btn-arrow.png" class="img-fluid"> Get Price</button>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                </section>
+        
+                <!-- THIRD SECTION-->
+        
+               
+    </body>

@@ -1,0 +1,21 @@
+/* CONTACT PAGE SECTION */
+.contact-page-contaner {
+    padding: 150px 50px 150px 50px !important;
+}
+.contact-page-contaner h1 {
+    font-family: Gilroy-Regular !important;
+    font-size: 90px;
+}
+@media only screen and (max-width: 767px) {
+    .contact-page-contaner {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .contact-page-contaner h1 {
+        font-size: 50px;
+    }
+}

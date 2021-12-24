@@ -1,0 +1,135 @@
+/* FONT FAMILY*/
+@font-face {
+    font-family: Gilroy-light;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Light.otf);
+}
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Regular.otf);
+}
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../font-family/gilroy-font-family/Radomir\ Tinkov\ -\ Gilroy-Bold.otf);
+}
+
+/* REVIEWS TOP SECTION */
+
+.review-top-container {
+    padding: 150px 50px 150px 50px !important;
+}
+.review-top-container h1 {
+    font-family: Gilroy-Regular !important;
+    font-size: 90px;
+}
+@media only screen and (max-width: 767px) {
+    .review-top-container {
+        padding-top: 100px !important;
+        padding-bottom: 100px !important;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+@media only screen and (max-width: 424px) {
+    .review-top-container h1 {
+        font-size: 50px;
+    }
+} 
+
+/* REVIEWS TOP SECTION */
+
+
+/* REVIEWS FIRST SECTION */
+
+.review-section {
+    background-color: #e1f4fd;
+}
+.review-container {
+    padding-top: 100px !important;
+    padding-bottom: 50px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.padding-bottom {
+    padding-bottom: 50px;
+}
+.separator{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.26);
+}
+.review-section h2 {
+    font-family: Gilroy-Regular !important;
+    font-weight: bold;
+}
+.review-section h1 {
+    font-size: 90px;
+    color: #0c93ea;
+}
+.review-section p {
+    font-size: 18px;
+}
+@media only screen and (max-width: 767px) {
+    .review-container {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .review-section p {
+        font-size: unset !important;
+    }   
+    .review-section h1 {
+        font-size: unset;
+    } 
+}
+.checked {
+    color: #0c93ea;
+}
+.checked-light {
+    color: #0c91ea94;
+}
+.check {
+    color: green;
+}
+
+/* REVIEWS FIRST SECTION */
+
+/* VIDEO SECTION */
+
+.video-section {
+    background-color: #e1f4fd;
+    padding-top: 50px !important;
+    padding-bottom: 100px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+.video-section-container {
+    border: solid 3px #0c93ea;
+    padding: 50px !important;
+}
+.video-section h1 {
+    font-size: 90px;
+    color: #0c93ea;
+}
+.black-color {
+    color: black;
+}
+.img-caption {
+    font-size: 25px;
+    font-weight: bold;
+}
+@media only screen and (max-width: 767px) {
+    .video-section {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+    .video-section-container {
+        padding: unset !important;
+    }
+    .video-section h1 {
+        font-size: 22px ;
+        text-align: center;
+    }   
+    .img-caption {
+        font-size: unset;
+    }
+}
+
+/* VIDEO SECTION */
+
